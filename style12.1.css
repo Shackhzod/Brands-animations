@@ -1,0 +1,247 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    background-color: #dbdada;
+    width: 900px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 200px;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.mid{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 28%;
+    color: #3498db;
+    overflow: hidden;
+    position: relative;
+}
+.btn5{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 28%;
+    color: #3498db;
+    overflow: hidden;
+    position: relative;
+}
+.btn4{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 28%;
+    color: #3498db;
+    overflow: hidden;
+    position: relative;
+}
+.btn3{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 28%;
+    color: #3498db;
+    overflow: hidden;
+    position: relative;
+}
+.btn2{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 28%;
+    color: #3498db;
+    overflow: hidden;
+    position: relative;
+}
+.btn img{
+    margin-top: 26px;
+    font-size: 36px;
+    transition: 0.2s linear;
+    position: absolute;
+    left: 25px;
+    top: 0.6px;
+}
+.btn5 img{
+    margin-top: 26px;
+    font-size: 36px;
+    transition: 0.2s linear;
+    position: absolute;
+    left: 25px;
+    top: 0.6px;
+}
+.btn4 img{
+    margin-top: 26px;
+    font-size: 36px;
+    transition: 0.2s linear;
+    position: absolute;
+    left: 25px;
+    top: 0.6px;
+}
+.btn3 img{
+    margin-top: 26px;
+    font-size: 36px;
+    transition: 0.2s linear;
+    position: absolute;
+    left: 25px;
+    top: 0.6px;
+}
+.btn2 img{
+    margin-top: 26px;
+    font-size: 36px;
+    transition: 0.2s linear;
+    position: absolute;
+    left: 25px;
+    top: 0.6px;
+}
+.btn:hover img{
+    transform: scale(1.2);
+}
+.btn5:hover img{
+    transform: scale(1.2);
+}
+.btn4:hover img{
+    transform: scale(1.2);
+}
+.btn3:hover img{
+    transform: scale(1.2);
+}
+.btn2:hover img{
+    transform: scale(1.2);
+}
+.btn:hover .none{
+    transform: scale(1.2);
+    display: none;
+}
+.btn5:hover .none{
+    transform: scale(1.2);
+    display: none;
+}
+.btn4:hover .none{
+    transform: scale(1.2);
+    display: none;
+}
+.btn3:hover .none{
+    transform: scale(1.2);
+    display: none;
+}
+.btn2:hover .none{
+    transform: scale(1.2);
+    display: none;
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #0079ca;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+.btn5::before{
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #0098c7;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+.btn4::before{
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #e7008e;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+.btn3::before{
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #ff5e00;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+.btn2::before{
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #00c0c7;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+.btn:hover::before{
+    animation: sh 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+.btn5:hover::before{
+    animation: sh 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+.btn4:hover::before{
+    animation: sh 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+.btn3:hover::before{
+    animation: sh 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+.btn2:hover::before{
+    animation: sh 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+@keyframes sh {
+    0%{
+        left: -110%;
+        top: 90%;
+    }
+    50%{
+        left: 10%;
+        top: -30%;
+    }
+    100%{
+        left: -10%;
+        top: -10%;
+    }
+}
+
+a .pngback{
+    position: absolute;
+    top: -1px;
+    left: 24px;
+    display: block;
+}
